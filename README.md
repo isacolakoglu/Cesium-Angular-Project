@@ -6,37 +6,49 @@ Projeyi indirip terminale giriyoruz.
 
 # Cesium-Angular Kurulumu (Yeni Proje Açmak İçin)
 1. "npm install -g @angular/cli" yazarak indiriyoruz.
-2. Angular Framework sürümüm günceldir. Eğer güncel değilse "npm install -g @angular/cli@latest" yazarak güncelliyoruz. 
-3. "ng new my-app" yazarak Angular'ı kuruyoruz
+   
+3. Angular Framework sürümüm günceldir. Eğer güncel değilse "npm install -g @angular/cli@latest" yazarak güncelliyoruz.
+   
+5. "ng new my-app" yazarak Angular'ı kuruyoruz
    * Would you like to add Angular routing? (Yes)
    * Which stylesheet format would you like to use? CSS
-4. https://cesium.com/learn/cesiumjs-learn/cesiumjs-quickstart/
+  
+6. https://cesium.com/learn/cesiumjs-learn/cesiumjs-quickstart/
    https://cesium.com/learn/cesiumjs-learn/cesiumjs-interactive-building/
    siteye girip incelemek için kılavuza bakabilirsiniz.
-5. Projeye girip terminalden "npm install --save cesium" yazarak Cesium kütüphanesini yüklüyoruz.
-6. CesiumJS- quickstart dokümanından "Import from CDN" kısmına gelip CesiumJS JavaScript ve CSS Files linkini kopyalayıp projenizin
+  
+8. Projeye girip terminalden "npm install --save cesium" yazarak Cesium kütüphanesini yüklüyoruz.
+   
+10. CesiumJS- quickstart dokümanından "Import from CDN" kısmına gelip CesiumJS JavaScript ve CSS Files linkini kopyalayıp projenizin
    "index.html" sayfasına gelip yapıştırıyorsunuz.
+
    ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/3cd42748-5d68-4d11-8afa-8b8f7609f421)
    
-7. "app.component.html" sayfasındaki tüm örnek kodlarını siliyoruz ve ardından şunu yazıyoruz;
+12. "app.component.html" sayfasındaki tüm örnek kodlarını siliyoruz ve ardından şunu yazıyoruz;
+    
    ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/ada3c7c1-9e29-465a-95da-c21c1eb41ddd)
 
-8. "app.component.ts" sayfasında import * as Cesium from 'cesium'; şeklinde kütüphaneyi içe aktarıyoruz.
+14. "app.component.ts" sayfasında import * as Cesium from 'cesium'; şeklinde kütüphaneyi içe aktarıyoruz.
+    
     ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/e3128531-4f09-4b6b-9091-093fb6c07bf4)
     
-9. Angular Lifecycle ekleyerek içine şunu yazıyoruz;
+16. Angular Lifecycle ekleyerek içine şunu yazıyoruz;
+    
    ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/2428c3f6-b474-4c48-b4c5-2b4b00945153)
 
    * Eğer birden fazla fonksiyon kullanılacaksa basit bir örnekle şunu yapabiliriz;
    ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/7a33887f-5c54-48e1-b4ee-86130c991ffd)
 
-10. "app.component.css" sayfasına gelip şunu ekliyoruz;
+11. "app.component.css" sayfasına gelip şunu ekliyoruz;
+    
     ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/330fc88f-ced9-43c6-96aa-2aff874ce0f1)
 
-11. "style.css" sayfasına gelip fullscreen olması için şunu ekliyoruz;
+13. "style.css" sayfasına gelip fullscreen olması için şunu ekliyoruz;
+    
     ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/3960662a-b886-419b-b675-66e6d3287c4e)
 
-12. "ng serve -o" yazıp çalıştırıldığında karşımıza şu hata çıkacaktır;
+15. "ng serve -o" yazıp çalıştırıldığında karşımıza şu hata çıkacaktır;
+    
     ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/597af925-dd1d-4b79-b08a-4e70d3b41436)
 
     * Bu hatayı çözmek için;
@@ -48,11 +60,11 @@ Projeyi indirip terminale giriyoruz.
       terminalden indiriyoruz. Kopyalamak için;
       "npm install url browserify-zlib https-browserify stream-http"
 
-13. Empty Module kullanmamız gerekecek dolayısıyla şunu indiriyoruz
+17. Empty Module kullanmamız gerekecek dolayısıyla şunu indiriyoruz
     * "npm install --save-dev empty-module" https://www.npmjs.com/package/empty-module?activeTab=dependencies
     * @@@UYARI@@@: empty-module'nun --save-dev olarak indirilmesine dikkat edelim. Yani devDependencies kısmında olmalıdır.
 
-14. "tsconfig.json" dosyasına gelip lib:[] altına şunu ekliyoruz; 
+18. "tsconfig.json" dosyasına gelip lib:[] altına şunu ekliyoruz; 
 
     "paths" : {
       "crypto": ["./node_modules/empty-module"], // crypto-browserify can be polyfilled here if needed
@@ -68,11 +80,14 @@ Projeyi indirip terminale giriyoruz.
 
     ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/ff9cd019-903e-41dc-9fe2-85675e537750)
 
-15. Tekrar "ng serve -o" şeklinde çalıştıralım
+19. Tekrar "ng serve -o" şeklinde çalıştıralım
 
     ![image](https://github.com/isacolakoglu/Cesium-Angular-Project/assets/85408010/47d47604-0866-42d3-a902-a34108ec1bc2)
 
-    
+20. Çağırdığımız fonksiyonun içine Cesium.ion'a üye olup Token sekmesinden token alıp, projenize yapıştırıp özel
+    kullanımda geliştiriniz.(Zorunlu Değildir.)
+
+
 
 # AirportProject
 
