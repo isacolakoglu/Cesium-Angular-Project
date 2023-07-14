@@ -1,0 +1,304 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "blocksAirport": [
+    {
+      "id": 1,
+      "name": "A Block of LaGuardia Airport",
+      "text": "A Block",
+      "passenger": 300,
+      "worker": 50,
+      "longitude": -73.8752337309,
+      "latitude": 40.7730322123,
+      "altitude": 40,
+      "image": "../assets/buildings-cityscape-svgrepo-com.svg",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": 2,
+      "name": "B Block of LaGuardia Airport",
+      "text": "B Block",
+      "passenger": 800,
+      "worker": 150,
+      "longitude": -73.8713489015,
+      "latitude": 40.7733017581,
+      "altitude": 40,
+      "image": "../assets/buildings-cityscape-svgrepo-com.svg",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": 3,
+      "name": "C Block of LaGuardia Airport",
+      "text": "C Block",
+      "passenger": 500,
+      "worker": 80,
+      "longitude": -73.8629300269,
+      "latitude": 40.7682430666,
+      "altitude": 40,
+      "image": "../assets/buildings-cityscape-svgrepo-com.svg",
+      "width": 50,
+      "height": 50
+    }
+  ],
+  "airport": [
+    {
+      "id": 1,
+      "name": "LaGuardia Airport in New York",
+      "text": "LaGuardia Airport",
+      "description": "LaGuardia Havalimanı, ABD'nin New York eyaletinde Queens olarak bilinen bölgede bulunan bir havalimanıdır. Flushing ve Bowery koylarına komşudur. New York ve New Jersey Liman İşletmeleri'ne aittir.",
+      "photo": "https://lh3.googleusercontent.com/p/AF1QipPPtXcdAaicu9n7C9XbhBqQVMBbM1K9tTsJHgNw=s680-w680-h510",
+      "passenger": 1600,
+      "worker": 280,
+      "longitude": -73.867561293,
+      "latitude": 40.7717612946,
+      "altitude": 40,
+      "image": "../assets/airport-svgrepo-com.svg",
+      "width": 50,
+      "height": 50,
+      "firstPointX": -73.8594934044,
+      "firstPointY": 40.7645343169,
+      "secondPointX": -73.8529444909,
+      "secondPointY": 40.7716154779,
+      "thirdPointX": -73.8673656782,
+      "thirdPointY": 40.78821717262,
+      "fourthPointX": -73.8842404045,
+      "fourthPointY": 40.7813746136,
+      "fifthPointX": -73.8815209083,
+      "fifthPointY": 40.7694871613,
+      "sixthPointX": -73.8744978087,
+      "sixthPointY": 40.7712458014,
+      "seventhPointX": -73.8700873972,
+      "seventhPointY": 40.7710317585,
+      "blocks": [
+        {
+          "id": 1,
+          "name": "A Block of LaGuardia Airport",
+          "text": "A Block",
+          "passenger": 300,
+          "worker": 50,
+          "longitude": -73.85753924327,
+          "latitude": 40.7727752151,
+          "altitude": 20,
+          "image": "./src/assets/buildings-cityscape-svgrepo-com.svg",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": 2,
+          "name": "B Block of LaGuardia Airport",
+          "text": "B Block",
+          "passenger": 800,
+          "worker": 150,
+          "longitude": -73.8713489015,
+          "latitude": 40.7733017581,
+          "altitude": 20,
+          "image": "./src/assets/buildings-cityscape-svgrepo-com.svg",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": 3,
+          "name": "C Block of LaGuardia Airport",
+          "text": "C Block",
+          "passenger": 500,
+          "worker": 80,
+          "longitude": -73.8629300269,
+          "latitude": 40.7682430666,
+          "altitude": 20,
+          "image": "./src/assets/buildings-cityscape-svgrepo-com.svg",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    }
+  ],
+  "militarybase": [
+    {
+      "id": 1,
+      "name": "Military Base of LaGuardia",
+      "text": "Military Base",
+      "soldier": 150,
+      "commander": 10,
+      "longitude": -73.8862368102,
+      "latitude": 40.7724289311,
+      "altitude": 20,
+      "image": "../assets/fighter-jet-svgrepo-com.svg",
+      "width": 50,
+      "height": 50,
+      "firstPointX": -73.8836307621,
+      "firstPointY": 40.7740595276,
+      "secondPointX": -73.8850819364,
+      "secondPointY": 40.7702234762,
+      "thirdPointX": -73.8871288676,
+      "thirdPointY": 40.7687082906,
+      "fourthPointX": -73.8884762271,
+      "fourthPointY": 40.7687087681,
+      "fifthPointX": -73.8892808515,
+      "fifthPointY": 40.7737350402
+    }
+  ],
+  "civilhome": [
+    {
+      "id": 1,
+      "name": "Civil Home",
+      "text": "Civil Home",
+      "people": 4,
+      "longitude": -73.8636651669,
+      "latitude": 40.7645063636,
+      "altitude": 20,
+      "width": 50,
+      "height": 50,
+      "image": "../assets/home-svgrepo-com.svg",
+      "firstPointX": -73.8634135480,
+      "firstPointY": 40.7634494918,
+      "secondPointX": -73.8626409164,
+      "secondPointY": 40.7638731919,
+      "thirdPointX": -73.8640614460,
+      "thirdPointY": 40.7653704469,
+      "fourthPointX": -73.8648366123,
+      "fourthPointY": 40.7649555543
+    }
+  ],
+  "deniedArea": [
+    {
+      "id": 1,
+      "name": "Enemy of Area for Civil and Military",
+      "text": "Denied Area",
+      "terrorist": 60,
+      "soldier": 20,
+      "longitude": -73.8910436895,
+      "latitude": 40.7750028082,
+      "altitude": 20,
+      "width": 50,
+      "height": 50,
+      "image": "../assets/alert-svgrepo-com.svg",
+      "firstPointX": -73.8904700369,
+      "firstPointY": 40.7735408090,
+      "secondPointX": -73.8902732151,
+      "secondPointY": 40.7779035259,
+      "thirdPointX": -73.8917232778,
+      "thirdPointY": 40.7765760701,
+      "fourthPointX": -73.8929106842,
+      "fourthPointY": 40.7740548141
+    }
+  ],
+  "planes": [
+    {
+      "id": 1,
+      "name": "Passenger Plane",
+      "count": 65
+    },
+    {
+      "id": 2,
+      "name": "War plane",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "name": "Company's Car"
+    },
+    {
+      "id": 2,
+      "name": "Civilian Car"
+    }
+  ],
+  "ways": [
+    {
+      "id": 1,
+      "longitude": -73.8611173870,
+      "latitude": 40.7635757089,
+      "altitude": 0
+    },
+    {
+      "id": 2,
+      "longitude": -73.8619503146,
+      "latitude": 40.7646518211,
+      "altitude": 0
+    },
+    {
+      "id": 3,
+      "longitude": -73.8631039219,
+      "latitude": 40.7659423766,
+      "altitude": 0
+    },
+    {
+      "id": 4,
+      "longitude": -73.8670299451,
+      "latitude": 40.7693608833,
+      "altitude": 0
+    },
+    {
+      "id": 5,
+      "longitude": -73.8699638526,
+      "latitude": 40.7710485780,
+      "altitude": 0
+    },
+    {
+      "id": 6,
+      "longitude": -73.8706742015,
+      "latitude": 40.7713501845,
+      "altitude": 0
+    },
+    {
+      "id": 7,
+      "longitude": -73.8721410837,
+      "latitude": 40.7716738820,
+      "altitude": 0
+    },
+    {
+      "id": 8,
+      "longitude": -73.8740585585,
+      "latitude": 40.7717580037,
+      "altitude": 0
+    },
+    {
+      "id": 9,
+      "longitude": -73.8758330714,
+      "latitude": 40.7715958255,
+      "altitude": 0
+    },
+    {
+      "id": 10,
+      "longitude": -73.8763065166,
+      "latitude": 40.7715694145,
+      "altitude": 0
+    },
+    {
+      "id": 11,
+      "longitude": -73.8783448148,
+      "latitude": 40.7709396996,
+      "altitude": 0
+    },
+    {
+      "id": 12,
+      "longitude": -73.8830908385,
+      "latitude": 40.7686362592,
+      "altitude": 0
+    },
+    {
+      "id": 13,
+      "longitude": -73.8875055507,
+      "latitude": 40.7670980698,
+      "altitude": 0
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+div {
+  display: block;
+}
+
+#cesiumContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+
+/*HEADER START */
+.header-main {
+  top: 0;
+  margin: 0;
+  left: 200px;
+  padding: 0;
+  width: 1500px;
+  position: absolute;
+  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  background-color: rgb(4, 5, 30);
+  border-bottom: 4px solid rgb(0, 91, 116);
+  border-left: 4px solid rgb(0, 91, 116);
+  border-right: 4px solid rgb(0, 91, 116);
+  border-style:double;
+  box-shadow: 6px 9px 12px rgb(0, 91, 116);
+}
+
+.header-left {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.header-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right {
+  float: right;
+  color: white;
+}
+
+.ul-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-list {
+  padding: 10px;
+  margin: 10px;
+}
+
+.vehicle {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: 'roboto';
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.vehicle:active,
+.vehicle:hover {
+  outline: 0;
+}
+.vehicle span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+.vehicle:hover span {
+  background: none;
+}
+
+.camera-dropdown a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+}
+
+.camera-dropdown > li {
+  position: relative;
+  display: inline-block;
+}
+
+.camera-dropdown > li > a {
+  color: #fff;
+  background-color: rgb(5, 6, 45);
+  padding: 20px 25px;
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: 'roboto';
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.camera-dropdown > li ul {
+  border-radius: 5px;
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  width: 211px;
+  border: 2px solid #e2e2e2;
+  background-color: rgb(5, 6, 45);
+  list-style-type: none;
+}
+
+.camera-dropdown > li ul li a {
+  color: white;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: rgb(5, 6, 45);
+  cursor: pointer;
+}
+
+.camera-dropdown > li ul li:hover a {
+  background-color: rgba(0, 0, 0, 0.05);
+  outline: 0;
+}
+
+.camera-dropdown li a span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.camera-dropdown > li:hover ul {
+  display: block;
+}
+
+.dropdown-menu:active,
+.dropdown-menu:hover {
+    outline: 0;
+}
+
+/*HEADER END */
